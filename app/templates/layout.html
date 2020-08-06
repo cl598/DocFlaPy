@@ -14,7 +14,7 @@
 {% if user %}
     <title>Welcome to {{ user.username }}'s site</title>
     {% else %}
-    <title>Welcome to My Site!</title>
+    <title>WELCOME!</title>
     {% endif %}
 <head>
  <body>
@@ -23,7 +23,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light mb-1">
   <a class="navbar-brand" href="#">{% if user %}{{ user.username }}'s Homepage{% else %}
-    <title>Welcome to My Homepage</title>
+    <title>WELCOME!</title>
     {% endif %}</a>
   <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNavDropdown" data-toggle="collapse" type="button">
     <span class="navbar-toggler-icon"></span>
@@ -34,7 +34,7 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="api/cities">Cities API JSON endpoint <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="api/measurements">Measurements API JSON endpoint <span class="sr-only">(current)</span></a>
       </li>
 
     </ul>
