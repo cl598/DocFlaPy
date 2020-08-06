@@ -1,4 +1,4 @@
-# PROJECT DESCRIPTION
+# PROJECT DESCRIPTION (INDIVIDUAL)
 This project is a homework to teach students on
 how to get Pycharm set up with Docker, Flask, MySQL, and Postman
 
